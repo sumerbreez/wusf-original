@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "An Alexa audio streaming skill that allows you to stream WUSF 89.7.",
+          "examplePhrases": [
+            "Alexa, open W. U. S. F.",
+            "Alexa, play W. U. S. F.",
+            "Alexa, start W. U. S. F."
+          ],
+          "keywords": [
+            "audio streaming",
+            "music",
+            "news",
+            "jazz"
+          ],
+          "name": "w-u-s-f",
+          "description": "An Alexa audio streaming skill for WUSF 89.7.",
+          "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-sm.png",
+          "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-lg.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
