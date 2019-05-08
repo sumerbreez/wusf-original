@@ -6,7 +6,7 @@ var streamInfo = {
   title: 'W. U. S. F.',
   subtitle: 'An Alexa audio streaming skill that allows you to stream WUSF 89.7.',
   cardContent: "Get more details at: http://wusf.org",
-  url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WUSFFM.mp3',
+  url: 'https://playerservices.streamtheworld.com/pls/WUSFFM.pls',
   image: {
     largeImageUrl: 'https://s3.amazonaws.com/cdn.dabblelab.com/img/alexa-card-lg.png',
     smallImageUrl: 'https://s3.amazonaws.com/cdn.dabblelab.com/img/alexa-card-sm.png'
